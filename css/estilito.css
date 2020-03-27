@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #CCC;
+}
+
+#Header a:hover {
+    color: #FFF;
+}
+
+#bg-img {
+    background: url("../img/bg.jpg") no-repeat center top fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+#Info {
+    margin-top: -280px;
+}
+
+#About fa{
+    color: white;
+}
+
+#About span, #Skills span, #Projects span, #Contact span {
+    padding: 10px 20px;
+}
+
+#About hr, #Skills hr, #Projects hr, #Contact hr {
+    border-width: 2px;
+    margin-top: 6px;
+}
